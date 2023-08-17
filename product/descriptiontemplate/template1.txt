@@ -1,0 +1,92 @@
+<![CDATA[
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+    .main1 {
+        border: 1px solid #000;
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 20px 10px;
+        background: #fff;
+        box-sizing: border-box;
+        word-break: break-all;
+    }
+
+    .main1 p,
+    .main1 span {
+        line-height: 24px;
+        font-size: 18px
+    }
+
+    .main1 h1 {
+        font-size: 26px !important;
+        margin: 30px 0;
+        text-align: center;
+        color: #000
+    }
+
+    .main1 h2 {
+        margin: 0 0 10px 0;
+        color: #000;
+        font-size: 22px;
+        line-height: 1.2;
+        text-align: left
+    }
+
+    .main1 p,
+    .main1 .product_dec div {
+        margin: 0;
+        padding: 0 0 20px 0;
+        color: #333;
+        text-align: left
+    }
+
+    .margin-bottom_change {
+        padding-bottom: 10px !important
+    }
+
+    h2 {
+        position: relative;
+        background-color: #1190d9;
+        padding: 10px;
+        margin-bottom: 20px !important;
+        color: #fff !important;
+    }
+
+    h2:after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 30px;
+        border: 15px solid transparent;
+        border-top: 15px solid #5f08c9;
+        width: 0;
+        height: 0;
+    }
+</style>
+<div class="main1">
+    <h1>Enjoy shopping!</h1>
+    <section class="product_dec">
+        <h2 style="background-color: rgb(95, 8, 201);">Description</h2>
+        <div style="font-size: 18px;" vocab="http://schema.org/" typeof="Product">
+            <%DESC>
+        </div>
+    </section>
+    <aside>
+        <div class="hasso">
+            <h2 style="background-color: rgb(95, 8, 201);">Shipping</h2>
+            <p>Shipping method : DHL or FedEx or Japan Post (with tracking number and insurance)<br/></p>
+            <p>*If you live in a remote area, you will have to pay an additional shipping fee.</p>
+            <p><br/></p>
+        </div>
+        <div class="tyuui">
+            <h2 style="background-color: rgb(95, 8, 201);">International Buyers - Please Note:</h2>
+            <p class="margin-bottom_change">Import duties, taxes, and charges are not included in the item price or
+                shipping cost. These charges are the buyer's responsibility. Please check with your country's customs
+                office to determine what these additional costs will be prior to bidding or buying.</p>
+            <p>Thank you for your understanding.</p>
+        </div>
+    </aside>
+</div>
+]]>
