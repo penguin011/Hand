@@ -1,0 +1,12 @@
+*media/
+*product/migrations
+*.env
+variable_pricetxt
+profit_attrs.txt
+shipping_fee.txt
+products.csv
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
