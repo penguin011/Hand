@@ -1,0 +1,6 @@
+{
+"mercari": "メルカリ",
+"auction": "ヤフオク",
+"Rakuma": "ラクマ",
+"paypay": "Paypayフリマ"
+}

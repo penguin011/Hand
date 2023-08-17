@@ -1,0 +1,8 @@
+{
+    "variable_price": "1000",
+    "fvf": "12",
+    "oversea": "1.35",
+    "payoneer": "2",
+    "fedex": "20",
+    "rate": "138.7"
+}
